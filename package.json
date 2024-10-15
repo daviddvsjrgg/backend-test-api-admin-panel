@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "install-and-start": "npm install && npm run start",
+    "install-and-start": "npm install && npx prisma generate && npm run start",
     "start": "node src/server.js"
   },
   "dependencies": {
